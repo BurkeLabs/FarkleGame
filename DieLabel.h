@@ -8,6 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol DieLabelDelegate <NSObject>
+
+-(void)onTapped;
+//-(void)DieLabel:(id)dieLabel didTapButton:(UITapGestureRecognizer *)tapGesture;
+
+- (void)roll;
+
+@end
+
 @interface DieLabel : UILabel
+
+@property (nonatomic, assign)id<DieLabelDelegate> delegate;
 
 @end

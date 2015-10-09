@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="7MJ-Lf-LpH">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -15,11 +17,234 @@
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A8Q-Zg-RgB" customClass="DieLabel">
+                                <rect key="frame" x="281" y="137" width="40" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="117" y="166" width="40" height="40"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BRt-Qh-aO8" customClass="DieLabel">
+                                <rect key="frame" x="281" y="137" width="40" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="177" y="166" width="40" height="40"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yHI-qG-vNC" customClass="DieLabel">
+                                <rect key="frame" x="281" y="137" width="40" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="237" y="166" width="40" height="40"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="4" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J8h-N9-ryw" customClass="DieLabel">
+                                <rect key="frame" x="281" y="137" width="40" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="117" y="222" width="40" height="40"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="5" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lSE-FJ-eR9" customClass="DieLabel">
+                                <rect key="frame" x="281" y="137" width="40" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="177" y="222" width="40" height="40"/>
+                                </variation>
+                            </label>
+                            <label opaque="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="6" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uya-56-QQJ" customClass="DieLabel">
+                                <rect key="frame" x="281" y="137" width="40" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="20"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="237" y="222" width="40" height="40"/>
+                                </variation>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="BRt-Qh-aO8"/>
+                                <exclude reference="yHI-qG-vNC"/>
+                                <exclude reference="J8h-N9-ryw"/>
+                                <exclude reference="lSE-FJ-eR9"/>
+                                <exclude reference="Uya-56-QQJ"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="BRt-Qh-aO8"/>
+                                <include reference="yHI-qG-vNC"/>
+                                <include reference="J8h-N9-ryw"/>
+                                <include reference="lSE-FJ-eR9"/>
+                                <include reference="Uya-56-QQJ"/>
+                            </mask>
+                        </variation>
                     </view>
+                    <navigationItem key="navigationItem" id="CcB-5G-set">
+                        <barButtonItem key="rightBarButtonItem" title="Rules!" id="n5A-jC-dBz">
+                            <connections>
+                                <segue destination="c0R-wI-xSn" kind="show" id="XEu-6v-2le"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="die1" destination="A8Q-Zg-RgB" id="q4l-Dh-9h5"/>
+                        <outlet property="die2" destination="BRt-Qh-aO8" id="ws8-gj-4Hq"/>
+                        <outlet property="die3" destination="yHI-qG-vNC" id="P79-ac-7bv"/>
+                        <outlet property="die4" destination="J8h-N9-ryw" id="frt-Vl-gfa"/>
+                        <outlet property="die5" destination="lSE-FJ-eR9" id="5PJ-ed-f71"/>
+                        <outlet property="die6" destination="Uya-56-QQJ" id="N3O-Wj-Eq6"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="1057.5" y="376"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Tja-aR-j3F">
+            <objects>
+                <viewController id="c0R-wI-xSn" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="m5w-S0-FTu"/>
+                        <viewControllerLayoutGuide type="bottom" id="M9y-I5-zSc"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xVA-gb-mLo">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XnG-SR-p93">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <string key="text">OBJECT OF THE GAME
+
+NUMBER OF PLAYERS: 2 or more
+
+THE OBJECT OF THE GAME is pretty simple. Roll six normal dice, add up the scores, and try to be the first to reach 10,000 points.
+
+EQUIPMENT NEEDED: Six normal dice and pencil &amp; paper to keep score. Dice can be purchased at department and drug stores (near the playing cards and games). A piece of paper for scoring is fine.
+
+Or, now, an iPhone!
+
+BASIC RULES
+
+1. Decide who starts the game (each person roll one (or two) dice; highest number starts the game). Go clockwise. Start the game.
+
+2. Player one: roll all six dice. Add up your score (scoring chart is below). Set aside the dice used in your initial scoring and (if you wish) roll again the remaining dice that DID NOT contribute to your initial score. If the dice in the 2nd roll generate a new score add those points to your first score and also set those dice aside. Roll the remaining dice, looking for additional score, and so on until you can't score or run out of dice.
+
+3. If you end up using all six dice in your first round, keep track of the total score and roll all six dice again if you wish. That is, if you are able to come up with any kind of score on a roll, you may keep rolling until you have used all six dice. At that point you can pick up all six dice and start the process over again, adding to your previous points.
+
+4. You must stop rolling dice if you no longer roll a dice combination that generates any value. If you roll a hand that has no value you FARKLE, must yell the word, "Farkle," and lose your turn. You also lose all the points of that turn. (Yes, the trick is to anticipate when to stop rolling!)
+
+5. If you choose to stop rolling during a turn before you FARKLE (come up with a scoreless roll) you keep all those points through your last roll. That is, you ONLY get points if you stop rolling BEFORE you FARKLE (roll a scoreless hand). If you roll a scoreless hand you lose all points from that turn.
+
+6. If you have two 5's (50 each) in the SAME roll, can flip one to make it a 1 and put the second dice into the group that you will roll again.  
+
+7. Every player gets the same amount of turns. So, if there are 5 players, and the 2nd player gets to 10,000 points first, players 3-5 get one more turn.
+
+HERE ARE THE SCORING POSSIBILITIES PER ROLL:
+
+EXAMPLE OF ROLLS and SCORING. This is quite easy, and you will catch on quick.
+
+HERE IS YOUR FIRST ROLL:
+
+Score: 50 + 50 + 100, or 200 points. (The other 3 dice are worthless)
+Set aside the  and roll again the . Let's say you get the following now from these 3 dice:
+
+You have two 5's which are worth 100 points (50 + 50). NOW your total is 300 (200 + 100). Set aside the 2 5's (you can flip one to make it a 1, and keep the second dice) and roll the remaining dice. Let's say it comes up a “2”.   A single “2” is worthless, and your have FARKLED and must yell "Farkle" and pass the dice to the next player. You receive no points.  So if you do not have a “1”, “5”, or three of a kind in your roll, you FARKLE.  The trick is to stop rolling with the most points before Farkleling.
+
+BUT, let's say this last dice comes up a “1” , which is worth 100 points. You can add that to you previous 300 and roll again all 6 dice. You start your new roll of the dice with 400 points already. If you are able to keep rolling you add to this. If you FARKLE you loose them all. 
+
+Remember, you cannot combine dice from one roll with dice from a 2nd roll to make point combinations.
+
+One more point: You are not required to use all dice if you don't wish to for a score. For example, if you have two 5's in a roll. You can chose to use one (or neither) of them if that fits your strategy (perhaps, hoping for s instead in the next roll).   Some people, for instance, decide not to keep 3 two's for 200.</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <constraints>
+                            <constraint firstItem="M9y-I5-zSc" firstAttribute="top" secondItem="XnG-SR-p93" secondAttribute="bottom" id="6pC-ZH-AR3"/>
+                            <constraint firstItem="XnG-SR-p93" firstAttribute="centerX" secondItem="xVA-gb-mLo" secondAttribute="centerX" id="8ax-3w-Bhg"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XnG-SR-p93" secondAttribute="trailing" constant="-20" id="Fkn-Xc-vVN"/>
+                            <constraint firstItem="XnG-SR-p93" firstAttribute="centerY" secondItem="xVA-gb-mLo" secondAttribute="centerY" id="Fom-in-Gzu"/>
+                            <constraint firstItem="XnG-SR-p93" firstAttribute="leading" secondItem="xVA-gb-mLo" secondAttribute="leadingMargin" constant="-20" id="YQZ-w6-rKN"/>
+                            <constraint firstItem="XnG-SR-p93" firstAttribute="top" secondItem="xVA-gb-mLo" secondAttribute="topMargin" constant="59" id="qFh-Un-MUX"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="XnG-SR-p93"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="6pC-ZH-AR3"/>
+                                <exclude reference="8ax-3w-Bhg"/>
+                                <exclude reference="Fkn-Xc-vVN"/>
+                                <exclude reference="Fom-in-Gzu"/>
+                                <exclude reference="YQZ-w6-rKN"/>
+                                <exclude reference="qFh-Un-MUX"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="XnG-SR-p93"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="6pC-ZH-AR3"/>
+                                <include reference="8ax-3w-Bhg"/>
+                                <include reference="Fkn-Xc-vVN"/>
+                                <include reference="Fom-in-Gzu"/>
+                                <include reference="YQZ-w6-rKN"/>
+                                <include reference="qFh-Un-MUX"/>
+                            </mask>
+                        </variation>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="jBD-9W-9ik" appends="YES" id="2Gc-oi-kDR"/>
+                        </connections>
+                    </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UPr-PP-mL1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <swipeGestureRecognizer direction="right" id="jBD-9W-9ik"/>
+            </objects>
+            <point key="canvasLocation" x="1782" y="376"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="sKv-5P-reJ">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="7MJ-Lf-LpH" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="RGT-pR-qZL">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="JzF-Db-cih"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iUd-E3-YIY" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139.5" y="376"/>
         </scene>
     </scenes>
 </document>

@@ -7,8 +7,16 @@
 //
 
 #import "ViewController.h"
+#import "DieLabel.h"
 
-@interface ViewController ()
+@interface ViewController () <DieLabelDelegate>
+
+@property (weak, nonatomic) IBOutlet DieLabel *die1;
+@property (weak, nonatomic) IBOutlet DieLabel *die2;
+@property (weak, nonatomic) IBOutlet DieLabel *die3;
+@property (weak, nonatomic) IBOutlet DieLabel *die4;
+@property (weak, nonatomic) IBOutlet DieLabel *die5;
+@property (weak, nonatomic) IBOutlet DieLabel *die6;
 
 @end
 
@@ -16,12 +24,28 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+//    [self.view addSubview:dieLabel];
+//    [dieLabel release];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+-(void)onTapped
+{
+
+}
+
+-(UILabel *)findLabelUsingPoint:(CGPoint)point
+{
+    if (CGRectContainsPoint(self.die1.frame, point))
+    {
+        return self.die1;
+    } else {
+        return nil;
+    }
+}
+
+- (IBAction)onTapPressed:(UILabel *)dieLabel
+{
+    NSLog(@"Dice1");
 }
 
 @end

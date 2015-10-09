@@ -13,6 +13,7 @@
 		B093F67E1BC7063500E7B3E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B093F67C1BC7063500E7B3E3 /* Main.storyboard */; };
 		B093F6801BC7063500E7B3E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B093F67F1BC7063500E7B3E3 /* Assets.xcassets */; };
 		B093F6831BC7063500E7B3E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B093F6811BC7063500E7B3E3 /* LaunchScreen.storyboard */; };
+		B093F68C1BC7065A00E7B3E3 /* DieLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = B093F68B1BC7065A00E7B3E3 /* DieLabel.m */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		B093F67F1BC7063500E7B3E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B093F6821BC7063500E7B3E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B093F6841BC7063500E7B3E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B093F68A1BC7065A00E7B3E3 /* DieLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DieLabel.h; path = ../DieLabel.h; sourceTree = "<group>"; };
+		B093F68B1BC7065A00E7B3E3 /* DieLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DieLabel.m; path = ../DieLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				B093F6771BC7063500E7B3E3 /* AppDelegate.m */,
 				B093F6791BC7063500E7B3E3 /* ViewController.h */,
 				B093F67A1BC7063500E7B3E3 /* ViewController.m */,
+				B093F68A1BC7065A00E7B3E3 /* DieLabel.h */,
+				B093F68B1BC7065A00E7B3E3 /* DieLabel.m */,
 				B093F67C1BC7063500E7B3E3 /* Main.storyboard */,
 				B093F67F1BC7063500E7B3E3 /* Assets.xcassets */,
 				B093F6811BC7063500E7B3E3 /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 				B093F67B1BC7063500E7B3E3 /* ViewController.m in Sources */,
 				B093F6781BC7063500E7B3E3 /* AppDelegate.m in Sources */,
 				B093F6751BC7063500E7B3E3 /* main.m in Sources */,
+				B093F68C1BC7065A00E7B3E3 /* DieLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
